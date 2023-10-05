@@ -52,7 +52,6 @@ input{
   padding: 10px;
 }
 
-/* Estilo para los botones */
 .random-color-button {
   background-color: transparent;
   border: none;
@@ -67,19 +66,17 @@ input{
   border-radius: 5px;
 }
 
-/* Estilo para el contenido del elemento */
+
 .grid-item h2 {
   margin: 0;
 }
 
-/* Agrega estilos para evitar superposiciones */
 .button-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-/* Agrega colores de fondo aleatorios */
 .random-color-button {
   background-color: randomColor();
 }
@@ -91,6 +88,6 @@ button{
   color: blue;
   column-rule-color: blueviolet;
 }
-/* Función para generar colores aleatorios *
+
 
   
