@@ -13,6 +13,7 @@ const ProtectedRoutes = () => {
     return <Navigate to='/' />
   }
 
+  
 }
 
 export default ProtectedRoutes
